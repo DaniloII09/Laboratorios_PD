@@ -1,0 +1,29 @@
+Encuentre el sujeto y predicado de las siguientes oraciones y conviertalas a su version en logica simbolica
+
+- Si la información no es completa para oferentes y demandantes, hay una falla de mercado.
+sujeto = oferentes y demandantes … mercado
+predicado = Si la información no es completa para …, hay una falla.
+
+p = información completa para oferentes
+q = información completa para demandantes
+r = hay una falla de mercado
+
+(~p ^ ~q) -> r
+
+- He pasado todas mis vacaciones en Grecia y Marruecos.
+sujeto = sujeto implícito (yo)
+predicado = He pasado todas mis vacaciones en Grecia y Marruecos.
+
+p = he pasado todas mis vacaciones en Grecia
+q = he pasado todas mis vacaciones en Marruecos
+
+p ^ q
+
+- La realidad supera a la ficción y él no puede creerlo.
+sujeto = La realidad … él
+predicado = supera a la ficción y … no puede creerlo
+
+p = la realidad supera a la ficción
+q = él puede creerlo
+
+p ^ ~q
